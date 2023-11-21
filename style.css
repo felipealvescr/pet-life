@@ -1,1 +1,57 @@
-* { margin: 0px; padding: 0px; }
+* { box-sizing: border-box; margin: 0px; padding: 0px; }
+
+body { font-family: 'Montserrat', sans-serif; color: #263138;}
+
+header { display: flex; align-items: center; justify-content: space-between; background-color: #ff735f; padding: 24px 80px; }
+
+header nav a { color: #ffffff; font-weight: 600; padding: 28px; text-decoration: none;}
+
+#inicio { height: 100vh; display: flex; align-items: center; gap: 32px; text-align: justify; padding: 24px 80px 128px 90px; position: relative; } 
+
+h1,
+h2 { font-size: 32px; font-weight: 600; margin-bottom: 30px; }
+
+.paragrafo { line-height: 150%; margin-bottom: 35px; }
+
+.botao { background-color: #ff9b6c; padding: 18px 30px; border-radius: 8px; color: #ffffff; text-decoration: none; font-size: 20px; margin-right: 20px; }
+
+.img-absolute { width: 100%; position: absolute; bottom: 0; left: 0; z-index: -10; }
+
+#clinica { height: 100vh; display: flex; align-items: center; gap: 64px; padding: 64px 80px; text-align: justify;}
+
+.texto-cor { color: #ff735f; }
+
+span { font-weight: bold; }
+
+#clinica li { font-weight: 600; line-height: 150%;   margin: 16px; margin-left: 32px; margin-bottom: 20px; }
+
+#farmacia { height: 100vh; padding: 64px 80px; text-align: center;}
+
+#farmacia img { margin: 64px auto }
+
+#farmacia .paragrafo { max-width: 1200px; margin: 0px auto; text-align: justify; }
+
+#duvidas { display: flex; align-items: center; gap: 64px; padding: 64px 80px; }
+
+.duvida { position: relative; }
+
+.duvida h3 { border: 2px solid #ff9b6c; border-radius: 8px; cursor: pointer; padding: 24px;}
+
+.duvida img { position: absolute; top: 32px; right: 24px; }
+
+.duvida .paragrafo { border-right: 1px solid #ff9b6c; border-bottom: 1px solid #ff9b6c; border-left: 1px solid #ff9b6c; border-radius: 0 0 8px 8px; margin-top: -8px; padding: 24px; }
+
+footer { background-color: rgb(255, 152, 108, 0.25); display: flex; gap: 250px; padding: 64px 90px; justify-content: space-between;}
+
+footer img,
+footer .titulo { font-weight: 600; margin-bottom: 24px; color: #ff735f; font-size: 22px;}
+
+footer nav a { color: #263138; display: block; margin-bottom: 16px; text-decoration: none; font-weight: 600; }
+
+footer p { margin-bottom: 16px; max-width: 350px; font-weight: 600; }
+
+footer p a {  color: #263138; text-decoration: none; }
+
+.copyright { background-color: #263138; text-align: center; padding: 30px; color: #ffffff; }
+
+.copyright a { color: #ff735f; text-decoration: none;}
